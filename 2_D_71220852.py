@@ -1,0 +1,5 @@
+a=str(input("Kalimat yang ingin diteliti:"))
+b=str(input("kata yang dicari:"))
+a=a.lower()
+c=a.count(b)
+print("Jumlah kata yang dicari:",c)
